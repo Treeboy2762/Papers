@@ -26,3 +26,25 @@ Wealth of a portfolio at time T is the product $$\large\prod_{t=1}^{T}{\gamma^tr
 # Deep Reinforcement Learning
 
 Why neural network?
+
+1. Machine-defined inputs and outputs
+
+Market information can be encoded as inputs and allocation vector as outputs. This allows for end-to-end training without hand crafted features.
+
+2. Implicit predictions on stock performances
+
+Reinforcement learning avoids explicit predictions of stock performances, reducing complexity of the problem.
+
+3. Free from curse of dimensionality
+
+DRL approximates various strategies and value functions, empowering large-scale portfolio management
+
+## Deep Deterministic Policy Gradient (DDPG)
+
+Combination of Q-learning and policy gradient.
+
+### Q-learning
+
+- Def: Reinforcement learning based on Q-Value function
+  - Q-Value function: expected accumulated reward when executing action a in state s and follow policy pi in the future.
+  - $$Q^\pi(s_t,a_t)=$$
