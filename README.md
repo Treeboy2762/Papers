@@ -1,2 +1,2 @@
-# UIC-Research-Project
-AI-Driven Portfolio Management
+# Paper Reviews
+Trying to note what I've read
